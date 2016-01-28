@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yanwei.testrongyun.MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/button"
+        android:text="单聊"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/but_list"
+        android:text="获取列表"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/but_list_juhe"
+        android:text="获取聚合列表"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/but_service"
+        android:text="客服"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/but_app_public"
+        android:text="应用公众"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/but_public"
+        android:text="公众"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/but_public_message"
+        android:text="公众服务信息"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/but_app_public_message"
+        android:text="应用公众服务信息"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/but_app_search_public"
+        android:text="搜索公众号"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
